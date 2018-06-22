@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<layout>
+    <default>
+        <reference name="head">
+            <action method="addJs">
+                <js>custom-validations.js</js>
+            </action>
+        </reference>
+    </default>
+
+    <PRODUCT_TYPE_configurable>
+        <reference name="head">
+            <action method="addJs">
+                <js>configuravel.js</js>
+            </action>
+        </reference>
+    </PRODUCT_TYPE_configurable>
+</layout>
