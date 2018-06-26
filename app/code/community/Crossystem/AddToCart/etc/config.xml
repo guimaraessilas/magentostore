@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<config>
+    <modules>
+        <Crossystem_AddToCart>
+            <version>1.0.1</version>
+        </Crossystem_AddToCart>
+    </modules>
+    <global>
+        <helpers>
+            <crossystem_meuprimeirohelper>
+                <class>Crossystem_AddToCart_Helper</class>
+            </crossystem_meuprimeirohelper>
+        </helpers>
+    </global>
+    <frontend>
+        <routers>
+            <crossystem_addtocart>
+                <use>standard</use>
+                <args>
+                    <module>Crossystem_AddToCart</module>
+                    <frontName>addtocart</frontName>
+                </args>
+            </crossystem_addtocart>
+        </routers>
+    </frontend>
+</config>
